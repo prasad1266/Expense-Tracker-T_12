@@ -15,7 +15,7 @@ app.use(express.json())
 app.use(cors())
 
 app.get("/",(request,response)=>{
-    response.send("<h1>Hello From server</h1>");
+    response.send("Hello From server");
 });
 
 const PORT = 5490 || process.env.PORT
