@@ -1,5 +1,6 @@
 {
   "name": "expense-tracker-t_12",
+
   "version": "1.0.0",
   "description": "Expense Tracker Mini Project",
   "main": "server.js",
@@ -12,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/prasad1266/Expense-Tracker-T_12.git"
   },
-  "author": "Prasad Hodgar",
+  "author": "Prasad Hodgar Yogesh Patil Akash Tomar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/prasad1266/Expense-Tracker-T_12/issues"
