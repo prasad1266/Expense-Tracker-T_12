@@ -1,11 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Routes,Route} from 'react-router-dom';
+import HomePage from './Pages/HomePage';
 
 function App() {
   return (
-    <div className="container-fluid">
-     <h1 className="text-center">Hello</h1>
+    <div>
+    <Routes>
+    <Route path="/" element={<HomePage/>}></Route>
+   
+    </Routes>
     </div>
+ 
   );
 }
 
